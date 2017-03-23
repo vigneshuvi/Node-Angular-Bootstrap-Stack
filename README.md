@@ -2,7 +2,7 @@
 
 Web app developed with Node+Angular+Bootstrap stack.
 
-##Features :
+## Features :
 
     1. Handled cookies in Angular.js
     2. API Integration
@@ -10,7 +10,7 @@ Web app developed with Node+Angular+Bootstrap stack.
     4. Designed custom user card using Bootstrap. 
 
 
-##How to run this node web service server?
+## How to run this node web service server?
 
     -   Need to install node.
     -   Open terminal and run the 'npm install' command to download the node modules.
