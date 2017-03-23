@@ -1,0 +1,33 @@
+{
+  "name": "node-angular-bootstrap-stack",
+  "version": "0.0.7",
+  "description": "A Web app developed with Node+Angular+Bootstrap stack.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "RestFul API",
+    "Web services",
+    "API Versioning",
+    "Basic Security",
+    "Environment setup",
+    "Angular",
+    "Bootstrap"
+  ],
+  "author": "Vigneshuvi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cors": "^2.8.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.3.0"
+  }
+}

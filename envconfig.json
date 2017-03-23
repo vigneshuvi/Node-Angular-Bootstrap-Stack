@@ -1,0 +1,53 @@
+{
+	"DEV" : {
+		"title" : "Node-Angular-Bootstrap-Stack (DEV)",
+		"version" : "v1",
+		"http": {
+			"enable" : true,
+			"port" : 3000	
+		},
+		"https": {
+			"options" : {
+				"key" : null,
+				"cert" : null
+			},
+			"enable" : false,
+			"port" : 3043
+		},
+		"auth" : "bypass"
+	},
+	"QA" : {
+		"title" : "Node-Angular-Bootstrap-Stack (QA)",
+		"version" : "v1",
+		"http" : {
+			"enable" : true,
+			"port" : 3000
+		},
+		"https": {
+			"options" : {
+				"key" : null,
+				"cert" : null
+			},
+			"enable" : false,
+			"port" : 3043
+		},
+		"auth" : "required"
+	},
+	"PROD" : {
+		"title" : "Node-Angular-Bootstrap-Stack (PROD)",
+		"version" : "v1",
+		"http" : {
+			"enable" : true,
+			"port" : 3000
+		},
+		"https": {
+			"options" : {
+				"key" : null,
+				"cert" : null
+			},
+			"enable" : false,
+			"port" : 3043
+		},
+		"auth" : "required"
+	}	
+}

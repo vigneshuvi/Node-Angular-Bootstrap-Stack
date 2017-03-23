@@ -1,0 +1,37 @@
+﻿<h1>Hi {{vm.user.firstname}} {{vm.user.lastname}}!</h1> <p><a href="#!/login" class="btn btn-primary">Logout</a></p>
+<p>You're logged in!!</p>
+<h3>Users List: {{ vm.userCount }}</h3>
+
+
+<div>
+    <div flex-xs layout="column" ng-repeat="user in vm.allUsers">
+        <div class="card">
+        	<div class="card_container">
+        		<div class="card_header">
+		    		<h4><b>{{user.firstname}} {{user.lastname}}</b></h4> 
+		    		<h7><i>{{user.lastUpdatedTime | date:'MM/dd/yyyy HH:mm:ss h:mma'}}</i><h7>
+		    	</div>
+		    	</br>
+		    	<p>{{user.status}}</p> 
+		  	</div>
+		  <img src="images/washedout.png" alt="Avatar" style="width:100%">
+		  <div class ="card_footer">
+			  <a href="#" ng-repeat="socialSupport in user.socialsupport">
+			  	<span ng-switch="socialSupport.network_id">
+			  		<i ng-switch-when="1" class="fa fa-facebook"></i>
+			  		<i ng-switch-when="2" class="fa fa-google-plus"></i>
+			  		<i ng-switch-when="3" class="fa fa-linkedin"></i>
+			  		<i ng-switch-when="4" class="fa fa-twitter"></i>
+			  		<i ng-switch-when="5" class="fa fa-youtube"></i>
+			  		<i ng-switch-when="6" class="fa fa-tumblr"></i>
+			  		<i ng-switch-when="7" class="fa fa-flickr"></i>
+			  		<i ng-switch-when="8" class="fa fa-pinterest"></i>
+			  		<i ng-switch-when="9" class="fa fa-instagram"></i>
+			  		<i ng-switch-default class="fa fa-dribbble"></i>
+				</span>
+			  </a> 
+		  </div>
+		</div>
+ 	</div>
+ </div>
+<p>&nbsp;</p>
